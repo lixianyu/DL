@@ -84,9 +84,11 @@ df_means.head()
 df_means.to_csv('cancer_data_edited.csv', index=False)
 
 # 创建标准误差数据框
-df_SE = df.iloc[:,12:22]
+# df_SE = df.iloc[:,12:22]
+df_SE = df.iloc[:, np.r_[0,1,12:22]]
 df_SE.head()
 
 # 创建最大值数据框
-df_MAX = df.iloc[:,22:]
+# df_MAX = df.iloc[:,22:]
+df_MAX = df.iloc[:, np.r_[0,1,22:32]]
 df_MAX.head()
