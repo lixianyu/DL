@@ -154,7 +154,8 @@ class Vector(object):
                 print('e = {}'.format(e))
                 raise e
 
-# v = Vector([8.462, 7.893])
+v = Vector([8.462, 7.893])
+print(v)
 # w = Vector([6.984, -5.975, 4.778])
 # cro = v.cross(w)
 # print(cro)
@@ -189,11 +190,11 @@ class Vector(object):
 # print(v.component_parallel_to(b))
 # print(v.component_orthogonal_to(b))
 
-vec1 = Vector([-7.579, -7.88])
+# vec1 = Vector([-7.579, -7.88])
 # vec1 = Vector([-7.579, 16.88])
-vec2 = Vector([22.737, 23.64])
-print('vec1.angle_with(vec2) = {}'.format(vec1.angle_with(vec2)))
-print(vec1.is_parallel_to(vec2))
+# vec2 = Vector([22.737, 23.64])
+# print('vec1.angle_with(vec2) = {}'.format(vec1.angle_with(vec2)))
+# print(vec1.is_parallel_to(vec2))
 # # print(vec1.is_orthogonal_to(vec2))
 # print('vec1 * vec2 = {}'.format(vec1.dot(vec2)))
 # print('vec1.normalization() = {}'.format(vec1.normalization()))
